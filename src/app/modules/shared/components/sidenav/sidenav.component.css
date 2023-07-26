@@ -1,0 +1,56 @@
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 56px;
+    /* Ajusta el valor según la altura del componente footer */
+    overflow-y: auto;
+    /* Agrega desplazamiento vertical si el contenido es más largo que el contenedor */
+}
+
+
+.menu-container {
+    position: relative;
+    /* Aplica la posición relativa solo al contenedor del menú lateral */
+}
+
+
+.is-mobile .dashboard-toolbar {
+    position: fixed;
+    z-index: 2;
+}
+
+span.app-name {
+    margin-left: 8px;
+}
+
+.menu-container {
+    flex: 1;
+
+}
+
+.is-mobile .menu-container {
+    flex: 1 0 auto;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.header {
+    margin-top: 20px;
+}
+
+.icono {
+    margin-right: 10px;
+}
